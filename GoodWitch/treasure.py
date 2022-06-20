@@ -1,0 +1,152 @@
+from graphics import*
+from button import*
+from gameover import Gameover
+from castle import Castle
+from time import sleep
+
+class Treasure:
+    def __init__(self,win):
+        
+        grass1 = Rectangle(Point(0,200), Point(600,600))
+        grass1.setFill("gray87")
+        grass1.draw(win)
+        grass2 = Rectangle(Point(0, 225), Point(600,600))
+        grass2.setFill("gray95")
+        grass2.draw(win)
+        grass3 = Rectangle(Point(0, 290), Point(600,600))
+        grass3.setFill("snow")
+        grass3.draw(win)
+        sky = Rectangle(Point(0,200), Point(600,0))
+        sky.setFill("lavender")
+        sky.draw(win)
+        sun=Circle(Point(500,100),(55))
+        sun.setFill('goldenrod1')
+        sun.draw(win)
+        road = Polygon(Point(75,600), Point(275,200), Point(325,200), Point(525,600))
+        road.setFill('gray')
+        road.draw(win)
+        treasure = Rectangle(Point(230,410), Point(370,500))
+        treasure.setFill('brown')
+        treasure.setWidth(8)
+        treasure.draw(win)
+        lid = Rectangle(Point(230,410), Point(370,440))
+        lid.setWidth(8)
+        lid.setFill('brown')
+        lid.draw(win)
+        line = Rectangle(Point(255,410), Point(265,440))
+        line.setFill('black')
+        line.draw(win)
+        line2 = Rectangle(Point(340,410), Point(350,440))
+        line2.setFill('black')
+        line2.draw(win)
+        lock = Rectangle(Point(290,435), Point(310,455))
+        lock.setFill("yellow")
+        lock.draw(win)
+        keyhole1 = Circle(Point(300,442),(3))
+        keyhole1.setFill('black')
+        keyhole1.draw(win)
+        keyhole2 = Polygon(Point(300,442),Point(297, 450),Point(303,450))
+        keyhole2.setFill('black')
+        keyhole2.draw(win)
+        money = Circle(Point(575,575),(7))
+        money.setFill('gold')
+        moneynum = Text(Point(560, 575),'10')
+        shop = Rectangle(Point(150, 400), Point(450, 500))
+        shop.setFill('brown')
+        pole1 = Rectangle(Point(150,400), Point(160,300))
+        pole1.setFill('brown')
+        pole2 = Rectangle(Point(450,400), Point(440,300))
+        pole2.setFill('brown')
+        sign = Rectangle(Point(150, 300), Point(450,230))
+        sign.setFill('brown')
+        sign2 = Rectangle(Point(155,295), Point(445,235))
+        sign2.setFill('white')
+        signtext = Text(Point(300, 265), "Shop")
+        signtext.setFill('red')
+        signtext.setSize(40)
+        shampoo = Rectangle(Point(250,360), Point(280, 405))
+        shampoo.setFill('purple')
+        cap = Rectangle(Point(261,360) ,Point(269,355))
+        cap.setFill('green')
+                        
+        rock = Circle(Point(320,390),(15))
+        rock.setFill('darkgray')
+                            
+                       
+                         
+        text = Text(Point(300,550), "It's the next morning. Wowza! You found a treasure chest! Click to open it.")
+        text.draw(win)
+        text.setStyle('bold')
+        text.setSize(16)
+        text2 = Text(Point(300,550), "Nice! You found 10 coins.\n (click)")
+        text2.setStyle('bold')
+        text2.setSize(16)
+        win.getMouse()
+        text.undraw()
+        text2.draw(win)
+        money.draw(win)
+        moneynum.draw(win)
+        treasure.undraw()
+        lid.undraw()
+        line.undraw()
+        line2.undraw()
+        lock.undraw()
+        keyhole1.undraw()
+        keyhole2.undraw()
+        win.getMouse()
+        text2.undraw()
+        text3 = Text(Point(300,550), "You continue down the road and come across a shop!\n They only have two items in stock \n and each on costs 10 coins, which is exactly how much money you have! How convenient!\n (click)")
+        text3.draw(win)
+        text3.setSize(12)
+        text3.setStyle('bold')
+        shop.draw(win)
+        pole1.draw(win)
+        pole2.draw(win)
+        sign.draw(win)
+        sign2.draw(win)
+        signtext.draw(win)
+        shampoo.draw(win)
+        cap.draw(win)
+        rock.draw(win)
+        win.getMouse()
+        text3.undraw()
+        text4 = Text(Point(300,550), "You can buy either shampoo or a rock. After days of traveling \nyou've acquired a rather unpleasant odor.Bathing is a luxury you've practically forgotten.\n You imagine the feeling of water and bubbles cascading over you. The scent of lilac wafts through the steamy air. \nThe shampoo calls to you. You yearn for it. \n Or you could buy a rock!!! \n (click)")
+        text4.draw(win)
+        text4.setStyle('bold')
+        text4.setSize(11)
+        win.getMouse()
+        text4.undraw()
+        
+        
+    def run(self, win):
+        #pt = win.getMouse()
+        
+        A = Button(win, Point(250,450),80,40, "A: Shampoo")
+        B = Button(win, Point(350, 450), 80,40, "B: Rock")
+        while (True):
+            pt = win.getMouse()
+            if A.clicked(pt) == True:
+                for i in range (10):
+                    
+                    text5 = Text(Point(300,550), "The shampoo was poison shampoo!")
+                    text5.draw(win)
+                    text5.setStyle('bold')
+                    text5.setSize(16)
+                    sleep(3)
+                    gameover = Gameover(win)
+                               
+            #pt = win.getMouse()
+            elif B.clicked(pt):
+                for i in range(10):
+                    text6 = Text(Point(300,550), "The moment you touch the rock light appears all around you.\n You're being teleported somewhere!")
+                    text6.draw(win)
+                    text6.setStyle('bold')
+                    text6.setSize(16)
+                    sleep(3)
+                    castle = Castle(win)
+def main():
+    treasure = Treasure()
+    
+
+
+    
