@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/86265908/174610300-1e7117a1-e957-4b6e-
 **To run on your machine**
 If not already installed, install the latest version of Python from https://www.python.org/downloads/.
 
-Download the GoodWitch code by clicking the "Code" Button:
+Download the GoodWitch code by clicking the "Code" Button on the right side of the screen in [the GoodWitch Repository] (https://github.com/mikielmcrae/GoodWitch):
 
 <img width="1007" alt="A dropdown menu with download options to run the code on one's local machine" src="https://user-images.githubusercontent.com/86265908/174616771-11667a7f-086b-46e6-abd0-73061b938b0e.png">
 
