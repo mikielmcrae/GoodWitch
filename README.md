@@ -5,10 +5,7 @@ Welcome to GoodWitch, a choose-your-own-adventure game designed to test your dec
 
 You're on a path to find new shelter after a random meteor destroyed your beautiful home. 
 
-https://user-images.githubusercontent.com/86265908/174609280-2ef3c126-a6cd-4806-9ddb-4e5d9d5d5539.mov
-
-
-Which way should you go? Will you be tempted by the beauty of the scenery, or will your gut tell you to stay far away? And most importantly, do you trust the Witch?
+Which path should you take? Will you be tempted by the beauty of the scenery, or will your gut tell you to stay far away? And finally, do you trust the Witch?
 
 **TABLE OF CONTENTS**
 
@@ -48,6 +45,8 @@ ________________________________________________________________________________
 II. Preview
 
 A look at some of the beautiful scenes and less-beautiful characters in the land of the Witch: 
+
+https://user-images.githubusercontent.com/86265908/174609280-2ef3c126-a6cd-4806-9ddb-4e5d9d5d5539.mov
 
 <img width="598" alt="An image of the mountain scene at sunset" src="https://user-images.githubusercontent.com/86265908/174609732-f838cf29-99ce-4560-afe2-8852079c850c.png">
 
