@@ -42,10 +42,12 @@ Download the code as a ZIP. Once downloaded, double click the folder to unzip, a
 
 <img width="305" alt="An image of the 'adventure.py' file in the GoodWitch folder." src="https://user-images.githubusercontent.com/86265908/174617326-682074c5-decb-4592-b681-df225f989adb.png">
 
-If Python is installed correctly on the machine, this should open the adventure.py script. By selecting "Run" from the Menu bar in IDLE, the option to "Run Module" should appear first.
+If Python is installed correctly on the machine, this should open the adventure.py script in IDLE. By selecting "Run" from the Menu bar in IDLE, the option to "Run Module" should appear first.
 
 <img width="569" alt="An indication of where users can find the 'Run Module' option, by clicking the Run menu in IDLE's menu bar." src="https://user-images.githubusercontent.com/86265908/174617762-d28d543c-4c0b-4973-bb91-3cc285467ed3.png">
 
 Once this is selected, you're ready to play GoodWitch!
+
+Other modules from the game can be opened in IDLE as well for examination by simply double clicking their names in the GoodWitch folder downloaded.
 
 Happy choosing!
