@@ -10,28 +10,19 @@ https://user-images.githubusercontent.com/86265908/174609280-2ef3c126-a6cd-4806-
 
 Which way should you go? Will you be tempted by the beauty of the scenery, or will your gut tell you to stay far away? And most importantly, do you trust the Witch?
 
-A look at some of the beautiful scenes and less-beautiful characters in the land of the Witch: 
+**TABLE OF CONTENTS**
 
-<img width="598" alt="An image of the mountain scene at sunset" src="https://user-images.githubusercontent.com/86265908/174609732-f838cf29-99ce-4560-afe2-8852079c850c.png">
+I. Installation instructions
 
-
-<img width="493" alt="A still from the graphical change from sunset to dark night in the mountains" src="https://user-images.githubusercontent.com/86265908/174609748-4e793967-bd99-4b55-b179-ddf93bb7103f.png">
-
-
-https://user-images.githubusercontent.com/86265908/174610300-1e7117a1-e957-4b6e-80c8-53e69750ea1b.mov
+II. Preview
 
 
-<img width="596" alt="A goblin standing in a forest. It is indicated to the player that the goblin has told the player to go one way, but the player has the choice to not listen to the Goblin." src="https://user-images.githubusercontent.com/86265908/174610653-21b0e6c0-fa69-4538-af81-fc8f95a77795.png">
+___________________________________________________________________________________________________________________________________________________________
 
-<img width="595" alt="The winning player's castle home" src="https://user-images.githubusercontent.com/86265908/174611538-5edb3044-8697-49b4-9da1-b0a6f037d704.png">
-
-<img width="586" alt="A cave the player might stumble upon" src="https://user-images.githubusercontent.com/86265908/174611822-e283e02e-8222-4cfa-a030-59d901b37890.png">
-
-<img width="573" alt="The famed witch greets the player" src="https://user-images.githubusercontent.com/86265908/174611849-4b94d095-76c0-4c9f-a868-2dc1671861d4.png">
-
-
+I. Installation instructions
 
 **To run on your machine**
+
 If not already installed, install the latest version of Python from https://www.python.org/downloads/.
 
 Download the GoodWitch code by clicking the "Code" Button on the right side of the screen in [the GoodWitch Repository](https://github.com/mikielmcrae/GoodWitch):
@@ -51,3 +42,27 @@ Once this is selected, you're ready to play GoodWitch!
 Other modules from the game can be opened in IDLE as well for examination by simply double clicking their names in the GoodWitch folder downloaded.
 
 Happy choosing!
+
+___________________________________________________________________________________________________________________________________________________________
+
+II. Preview
+
+A look at some of the beautiful scenes and less-beautiful characters in the land of the Witch: 
+
+<img width="598" alt="An image of the mountain scene at sunset" src="https://user-images.githubusercontent.com/86265908/174609732-f838cf29-99ce-4560-afe2-8852079c850c.png">
+
+
+<img width="493" alt="A still from the graphical change from sunset to dark night in the mountains" src="https://user-images.githubusercontent.com/86265908/174609748-4e793967-bd99-4b55-b179-ddf93bb7103f.png">
+
+
+https://user-images.githubusercontent.com/86265908/174610300-1e7117a1-e957-4b6e-80c8-53e69750ea1b.mov
+
+
+<img width="596" alt="A goblin standing in a forest. It is indicated to the player that the goblin has told the player to go one way, but the player has the choice to not listen to the Goblin." src="https://user-images.githubusercontent.com/86265908/174610653-21b0e6c0-fa69-4538-af81-fc8f95a77795.png">
+
+<img width="595" alt="The winning player's castle home" src="https://user-images.githubusercontent.com/86265908/174611538-5edb3044-8697-49b4-9da1-b0a6f037d704.png">
+
+<img width="586" alt="A cave the player might stumble upon" src="https://user-images.githubusercontent.com/86265908/174611822-e283e02e-8222-4cfa-a030-59d901b37890.png">
+
+<img width="573" alt="The famed witch greets the player" src="https://user-images.githubusercontent.com/86265908/174611849-4b94d095-76c0-4c9f-a868-2dc1671861d4.png">
+
