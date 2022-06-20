@@ -2,6 +2,7 @@ from graphics import *
 from goblin import Goblin
 from button import*
 from gameover import Gameover
+from castle import Castle
 
 class Forest2:
         
