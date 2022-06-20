@@ -59,9 +59,8 @@ https://user-images.githubusercontent.com/86265908/174610300-1e7117a1-e957-4b6e-
 
 <img width="596" alt="A goblin standing in a forest. It is indicated to the player that the goblin has told the player to go one way, but the player has the choice to not listen to the Goblin." src="https://user-images.githubusercontent.com/86265908/174610653-21b0e6c0-fa69-4538-af81-fc8f95a77795.png">
 
-<img width="595" alt="The winning player's castle home" src="https://user-images.githubusercontent.com/86265908/174611538-5edb3044-8697-49b4-9da1-b0a6f037d704.png">
-
 <img width="586" alt="A cave the player might stumble upon" src="https://user-images.githubusercontent.com/86265908/174611822-e283e02e-8222-4cfa-a030-59d901b37890.png">
 
 <img width="573" alt="The famed witch greets the player" src="https://user-images.githubusercontent.com/86265908/174611849-4b94d095-76c0-4c9f-a868-2dc1671861d4.png">
 
+<img width="595" alt="The winning player's castle home" src="https://user-images.githubusercontent.com/86265908/174611538-5edb3044-8697-49b4-9da1-b0a6f037d704.png">
