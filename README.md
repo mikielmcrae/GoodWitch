@@ -1,5 +1,5 @@
-# GoodWitch
-Python graphical game.
+# GoodWitch 🧙‍🧙‍🧙‍
+Python graphical choose-your-own-adventure game!🧙
 
 Welcome to GoodWitch, a choose-your-own-adventure game designed to test your decision-making skills and hone your gut instincts!
 
